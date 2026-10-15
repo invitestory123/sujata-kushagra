@@ -1,6 +1,6 @@
-﻿/**
+/**
  * wedding-data.js — Customer-facing editable data layer for midnight-stargaze
- * Sujata & Kushagra Wedding Invitation
+ * Kushagra & Sujata Wedding Invitation
  */
 
 window.WEDDING_DATA = {
@@ -23,18 +23,18 @@ window.WEDDING_DATA = {
 
   venue: {
     name: "Radhika Mandapam",
-    address: "Gwalior Road, Jhansi, Uttar Pradesh 284003",
+    address: "Gwalior Road, Jhansi · Home: 402/1 CP Mission Compound, Jhansi",
     mapsQuery: "Radhika Mandapam, Gwalior Road, Jhansi",
   },
 
   verse: {
     hindi: "॥ श्री गणेशाय नमः ॥",
-    text: "Together with their families, Sujata and Kushagra request the honour of your presence as they unite in marriage under the starry sky.",
+    text: "Together with their families, Kushagra and Sujata request the honour of your presence as they unite in marriage under the starry sky.",
   },
 
   events: [
     {
-      name: "The Wedding",
+      name: "The Wedding Day",
       icon: "heart",
       date: "Monday, 30th November 2026",
       dayLabel: "Monday",
@@ -42,7 +42,7 @@ window.WEDDING_DATA = {
       monthLabel: "November 2026",
       time: "Baraat at 7:00 PM",
       venue: "Radhika Mandapam, Gwalior Road, Jhansi",
-      note: "Tika, Pujan & Panigrahan Sanskar • Baraat departs from Siddheshwar Mandir",
+      note: "Tika, Pujan & Panigrahan Sanskar • Baraat departs from Siddheshwar Mandir at 7:00 PM",
     },
   ],
 

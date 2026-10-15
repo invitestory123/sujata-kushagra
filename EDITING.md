@@ -1,4 +1,4 @@
-# Customer Editing Guide — Sujata & Kushagra Wedding Invitation
+# Customer Editing Guide — Kushagra & Sujata Wedding Invitation
 
 This template is an Udaipur starry night Hindu wedding invitation featuring dynamic star fields, Lord Ganesha blessing, couple portrait, countdown timer, event itinerary, and venue details.
 
@@ -7,22 +7,27 @@ This template is an Udaipur starry night Hindu wedding invitation featuring dyna
 ## Normal Customer Changes
 
 All routine customer edits are configured in:
-→ [editable/wedding-data.js](file:///c:/invitestory/week7/sujata-kushagra/editable/wedding-data.js)
+→ [editable/wedding-data.js](file:///editable/wedding-data.js)
 
 ### Couple Profiles
 Edit `couple` in `editable/wedding-data.js`:
-- `bride` & `groom`: `"Sujata"` & `"Kushagra"`
+- `groom` & `bride`: `"Kushagra"` & `"Sujata"`
 - `hashtag`: `"#SujataWedsKushagra"`
 - `monogram`: `"S · K"`
 
-### Wedding Dates & Schedule
-- Pre-Wedding Functions: Sunday, 29th November 2026 (Mehendi at 2:00 PM, Sangeet at 7:00 PM) at Aarambh Banquet, Jhansi
-- Wedding Day: Monday, 30th November 2026 (Haldi at 9:30 AM, Swagat / Baraat at 8:00 PM, Preeti Bhoj at 8:30 PM, Vidai Late Night) at Radhika Mandapam, Jhansi
+### Wedding Festivities & Schedule
+- **Saturday, 28th Nov 2026**: Bhagyapada Sthapana / Anshudan (Home: 402/1 CP Mission Compound, Jhansi)
+- **Sunday, 29th Nov 2026**: Matrika Pujan (Home: 402/1 CP Mission Compound, Jhansi)
+- **Monday, 30th Nov 2026 (Wedding Day)**:
+  - Baraat Departure: 7:00 PM from Siddheshwar Mandir
+  - Tika, Pujan & Panigrahan Sanskar at Radhika Mandapam, Gwalior Road, Jhansi
+- **Tuesday, 1st Dec 2026**: Vadhu Aagaman (Bride's Arrival Home)
 
 ### Music
-- Song: "Teri Ore" (Instrumental intro tone) — located at `editable/assets/bg-music.mp3`
+- Song: "Jashn-E-Bahaaraa" — located at `editable/assets/bg-music.mp3`
 
 ### Images
+Replace files directly in `editable/assets/` or update paths in `editable/wedding-data.js`:
 - Couple portrait: `editable/assets/couple.webp`
 - Palace venue photo: `editable/assets/venue-palace.webp`
 - Ganesha icon: `editable/assets/ganesha.png`
