@@ -1,72 +1,71 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for midnight-stargaze
- * Kushagra & Sujata Wedding Invitation
+ * Sujata & Kushagra Wedding Invitation
+ * 29th & 30th November 2026 · Jhansi
  */
 
 window.WEDDING_DATA = {
   couple: {
-    groom: "Kushagra",
     bride: "Sujata",
-    groomFull: "Kushagra",
+    groom: "Kushagra",
     brideFull: "Sujata",
-    groomParents: "With love and blessings of Family & Friends",
-    brideParents: "With love and blessings of Family & Friends",
+    groomFull: "Kushagra",
+    brideParents: "",
+    groomParents: "",
     hashtag: "#SujataWedsKushagra",
     monogram: "S · K",
   },
 
   wedding: {
-    dateISO: "2026-11-30T19:00:00+05:30",
+    dateISO: "2026-11-30T20:00:00+05:30",
     dateLabel: "Monday, 30th November 2026",
-    timeLabel: "Baraat Departure at 7:00 PM",
+    timeLabel: "Swagat & Baraat at 8:00 PM",
   },
 
   venue: {
     name: "Radhika Mandapam",
-    address: "Gwalior Road, Jhansi · Home: 402/1 CP Mission Compound, Jhansi",
-    mapsQuery: "Radhika Mandapam, Gwalior Road, Jhansi",
+    address: "Gwalior Road, Jhansi, Uttar Pradesh",
+    mapsQuery: "Shri Radhika Mandapam Gwalior Road Jhansi",
+    mapsUrl: "https://maps.app.goo.gl/bM5s3ajjw5ixkB5NA?g_st=ac",
   },
 
   verse: {
     hindi: "॥ श्री गणेशाय नमः ॥",
-    text: "Together with their families, Kushagra and Sujata request the honour of your presence as they unite in marriage under the starry sky.",
+    text: "Together with their families, Sujata and Kushagra request the honour of your presence as they embark on this beautiful journey of love and togetherness under a sky full of stars.",
   },
 
   events: [
     {
-      name: "The Wedding Day",
+      name: "Pre-Wedding Functions",
+      icon: "heart",
+      date: "Sunday, 29th November 2026",
+      dayLabel: "Sunday",
+      dayNum: "29",
+      monthLabel: "November 2026",
+      time: "2:00 PM onwards",
+      venue: "Aarambh Banquet, Gwalior Road, Thapak Bagh, Jhansi",
+      note: "Mehendi at 2:00 PM · Sangeet at 7:00 PM",
+    },
+    {
+      name: "Wedding Day",
       icon: "heart",
       date: "Monday, 30th November 2026",
       dayLabel: "Monday",
       dayNum: "30",
       monthLabel: "November 2026",
-      time: "Baraat at 7:00 PM",
+      time: "Swagat / Baraat at 8:00 PM",
       venue: "Radhika Mandapam, Gwalior Road, Jhansi",
-      note: "Tika, Pujan & Panigrahan Sanskar • Baraat departs from Siddheshwar Mandir at 7:00 PM",
+      note: "Haldi at 9:30 AM · Dinner at 8:30 PM · Vidai (Doli) Late Night Under The Stars",
     },
   ],
 
   program: [
-    {
-      name: "Bhagyapada Sthapana / Anshudan",
-      time: "Sat, 28 Nov · Home",
-    },
-    {
-      name: "Matrika Pujan",
-      time: "Sun, 29 Nov · Home",
-    },
-    {
-      name: "Baraat Departure (Siddheshwar Mandir)",
-      time: "Mon, 30 Nov · 7:00 PM",
-    },
-    {
-      name: "Tika, Pujan & Panigrahan Sanskar",
-      time: "Mon, 30 Nov · Radhika Mandapam",
-    },
-    {
-      name: "Vadhu Aagaman (Bride's Arrival Home)",
-      time: "Tue, 1 Dec · Home",
-    },
+    { name: "Mehendi (Aarambh Banquet, Gwalior Road)", time: "Sun, 29 Nov · 2:00 PM" },
+    { name: "Sangeet (Aarambh Banquet, Gwalior Road)", time: "Sun, 29 Nov · 7:00 PM" },
+    { name: "Haldi Ceremony (Radhika Mandapam)", time: "Mon, 30 Nov · 9:30 AM" },
+    { name: "Swagat / Baraat (Radhika Mandapam)", time: "Mon, 30 Nov · 8:00 PM" },
+    { name: "Preeti Bhoj / Dinner (Radhika Mandapam)", time: "Mon, 30 Nov · 8:30 PM" },
+    { name: "Vidai (Doli Under The Stars)", time: "Late Night" },
   ],
 
   sections: {
@@ -77,8 +76,13 @@ window.WEDDING_DATA = {
 
   music: {
     src: "./editable/assets/bg-music.mp3",
-    title: "Jashn-E-Bahaaraa",
+    track: "./editable/assets/bg-music.mp3",
+    title: "Teri Ore (Instrumental Tone)",
     autoplay: true,
+  },
+
+  footer: {
+    families: "With love, the families",
   },
 
   images: {
