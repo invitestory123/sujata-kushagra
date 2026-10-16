@@ -25,8 +25,8 @@ window.WEDDING_DATA = {
   venue: {
     name: "Radhika Mandapam",
     address: "Gwalior Road, Jhansi",
-    mapsQuery: "Shri Radhika Mandapam Gwalior Road Jhansi",
-    mapsUrl: "https://maps.app.goo.gl/bM5s3ajjw5ixkB5NA?g_st=ac",
+    mapsQuery: "Radhika Mandapam Gwalior Road Jhansi",
+    mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
   },
 
   verse: {
@@ -56,7 +56,7 @@ window.WEDDING_DATA = {
       monthLabel: "November 2026",
       time: "Swagat / Baraat at 8:00 PM",
       venue: "Radhika Mandapam, Gwalior Road, Jhansi",
-      mapsUrl: "https://maps.app.goo.gl/bM5s3ajjw5ixkB5NA?g_st=ac",
+      mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
       note: "Haldi - 9:30 AM · Swagat / Baraat - 8:00 PM · Preeti Bhoj (Dinner) - 8:30 PM · Vidai (Doli) - Late Night, Under The Stars",
     },
   ],
@@ -84,7 +84,7 @@ window.WEDDING_DATA = {
       name: "Radhika Mandapam",
       events: "Haldi, Swagat/Baraat, Preeti Bhoj & Vidai",
       address: "Gwalior Road, Jhansi",
-      mapsUrl: "https://maps.app.goo.gl/bM5s3ajjw5ixkB5NA?g_st=ac",
+      mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
       date: "Monday, 30th November 2026",
     },
   ],
