@@ -72,20 +72,22 @@ window.WEDDING_DATA = {
 
   venues: [
     {
-      title: "Pre-Wedding Functions",
-      name: "Aarambh Banquet",
-      events: "Mehendi & Sangeet",
-      address: "Gwalior Road, Thapak Bagh, Jhansi",
-      mapsUrl: "https://maps.app.goo.gl/2k7C8kL5cu4V9obU6?g_st=ac",
-      date: "Sunday, 29th November 2026",
-    },
-    {
-      title: "Wedding Day",
+      title: "Radhika Mandapam",
       name: "Radhika Mandapam",
-      events: "Haldi, Swagat/Baraat, Preeti Bhoj & Vidai",
+      events: "Wedding Day · Haldi, Swagat/Baraat, Preeti Bhoj & Vidai",
       address: "Gwalior Road, Jhansi",
       mapsUrl: "https://maps.app.goo.gl/bM5s3ajjw5ixkB5NA?g_st=ac",
+      mapsQuery: "Radhika Mandapam Gwalior Road Jhansi",
       date: "Monday, 30th November 2026",
+    },
+    {
+      title: "Aarambh Banquet",
+      name: "Aarambh Banquet",
+      events: "Pre-Wedding Functions · Mehendi & Sangeet",
+      address: "Gwalior Road, Thapak Bagh, Jhansi",
+      mapsUrl: "https://maps.app.goo.gl/2k7C8kL5cu4V9obU6?g_st=ac",
+      mapsQuery: "Aarambh Banquet Gwalior Road Thapak Bagh Jhansi",
+      date: "Sunday, 29th November 2026",
     },
   ],
 
