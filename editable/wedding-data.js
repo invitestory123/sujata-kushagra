@@ -26,7 +26,7 @@ window.WEDDING_DATA = {
     name: "Radhika Mandapam",
     address: "Gwalior Road, Jhansi",
     mapsQuery: "Radhika Mandapam Gwalior Road Jhansi",
-    mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
+    mapsUrl: "https://maps.app.goo.gl/bM5s3ajjw5ixkB5NA?g_st=ac",
   },
 
   verse: {
@@ -45,7 +45,7 @@ window.WEDDING_DATA = {
       time: "2:00 PM onwards",
       venue: "Aarambh Banquet, Gwalior Road, Thapak Bagh, Jhansi",
       mapsUrl: "https://maps.app.goo.gl/2k7C8kL5cu4V9obU6?g_st=ac",
-      note: "Mehendi - 2:00 PM · Sangeet - 7:00 PM",
+      note: "Mehendi - 2:00 PM • Sangeet - 7:00 PM",
     },
     {
       name: "Wedding Day",
@@ -56,18 +56,18 @@ window.WEDDING_DATA = {
       monthLabel: "November 2026",
       time: "Swagat / Baraat at 8:00 PM",
       venue: "Radhika Mandapam, Gwalior Road, Jhansi",
-      mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
-      note: "Haldi - 9:30 AM · Swagat / Baraat - 8:00 PM · Preeti Bhoj (Dinner) - 8:30 PM · Vidai (Doli) - Late Night, Under The Stars",
+      mapsUrl: "https://maps.app.goo.gl/bM5s3ajjw5ixkB5NA?g_st=ac",
+      note: "Haldi - 9:30 AM • Swagat / Baraat - 8:00 PM • Preeti Bhoj (Dinner) - 8:30 PM • Vidai (Doli) - Late Night, Under The Stars",
     },
   ],
 
   program: [
-    { name: "Mehendi (Aarambh Banquet, Gwalior Road)", time: "Sun, 29 Nov · 2:00 PM" },
-    { name: "Sangeet (Aarambh Banquet, Gwalior Road)", time: "Sun, 29 Nov · 7:00 PM" },
-    { name: "Haldi Ceremony (Radhika Mandapam)", time: "Mon, 30 Nov · 9:30 AM" },
-    { name: "Swagat / Baraat (Radhika Mandapam)", time: "Mon, 30 Nov · 8:00 PM" },
-    { name: "Preeti Bhoj (Dinner) (Radhika Mandapam)", time: "Mon, 30 Nov · 8:30 PM" },
-    { name: "Vidai (Doli Under The Stars)", time: "Late Night" },
+    { name: "Mehendi", time: "Sun, 29 Nov · 2:00 PM" },
+    { name: "Sangeet", time: "Sun, 29 Nov · 7:00 PM" },
+    { name: "Haldi", time: "Mon, 30 Nov · 9:30 AM" },
+    { name: "Swagat / Baraat", time: "Mon, 30 Nov · 8:00 PM" },
+    { name: "Preeti Bhoj (Dinner)", time: "Mon, 30 Nov · 8:30 PM" },
+    { name: "Vidai (Doli)", time: "Late Night, Under The Stars" },
   ],
 
   venues: [
@@ -84,7 +84,7 @@ window.WEDDING_DATA = {
       name: "Radhika Mandapam",
       events: "Haldi, Swagat/Baraat, Preeti Bhoj & Vidai",
       address: "Gwalior Road, Jhansi",
-      mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
+      mapsUrl: "https://maps.app.goo.gl/bM5s3ajjw5ixkB5NA?g_st=ac",
       date: "Monday, 30th November 2026",
     },
   ],
